@@ -111,7 +111,7 @@ El prototipo fue validado con una muestra de **$n=11$ usuarios** utilizando la e
 
 ## 👥 Créditos
 
-**Autor:** Steven Ernesto Luna Gaona
-**Institución:** Universidad Nacional de Loja - Carrera de Computación.
-**Asignatura:** Human-Computer Interaction.
-**Docente:** Ing. Pablo F. Ordoñez O.
+* **Autor:** Steven Ernesto Luna Gaona
+* **Institución:** Universidad Nacional de Loja - Carrera de Computación.
+* **Asignatura:** Human-Computer Interaction.
+* **Docente:** Ing. Pablo F. Ordoñez O.
