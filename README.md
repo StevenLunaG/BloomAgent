@@ -21,29 +21,29 @@ El núcleo del proyecto integra **Inteligencia Artificial Generativa** (vía Gro
 ## 🚀 Características Principales
 
 ### 🤖 Dimensión IA (Cerebro Cognitivo)
-* [cite_start]**Generación Procedural:** Uso de **Groq API (LPU)** con modelos **Llama-3-8b** o **Mixtral** para crear preguntas únicas en milisegundos[cite: 667, 671].
+* **Generación Procedural:** Uso de **Groq API (LPU)** con modelos **Llama-3-8b** o **Mixtral** para crear preguntas únicas en milisegundos.
 * **Adaptabilidad:** El sistema evalúa las respuestas y ajusta la dificultad o el nivel de Bloom automáticamente.
-* [cite_start]**Salida Estructurada:** Garantía de formato JSON para la integración perfecta con Unity[cite: 563].
+* **Salida Estructurada:** Garantía de formato JSON para la integración perfecta con Unity.
 
 ### 📱 Dimensión AR (Entorno)
-* [cite_start]**Detección de Planos:** Escaneo de superficies horizontales (mesas/escritorios) usando **AR Foundation**[cite: 45].
-* [cite_start]**Anclaje Espacial:** Persistencia de objetos virtuales (Robot y UI) en coordenadas del mundo real para evitar el "deslizamiento"[cite: 46].
-* [cite_start]**Interfaz Dieléctrica:** Burbujas de texto y menús flotantes integrados en el espacio 3D (World Space Canvas)[cite: 36].
+* **Detección de Planos:** Escaneo de superficies horizontales (mesas/escritorios) usando **AR Foundation**.
+* **Anclaje Espacial:** Persistencia de objetos virtuales (Robot y UI) en coordenadas del mundo real para evitar el "deslizamiento".
+* **Interfaz Dieléctrica:** Burbujas de texto y menús flotantes integrados en el espacio 3D (World Space Canvas).
 
 ### 👆 Dimensión HCI (Interacción)
-* [cite_start]**Raycasting Táctil:** Interacción mediante "Taps" en pantalla traducidos a coordenadas 3D, minimizando la carga cognitiva[cite: 38].
-* [cite_start]**Feedback Multimodal:** Respuesta visual (partículas/colores), animaciones del robot (celebración/pensar) y respuesta háptica (vibración)[cite: 270, 271].
-* [cite_start]**Usabilidad Móvil:** Diseñado para sesiones de micro-aprendizaje (3-5 min) para evitar fatiga física ("Gorilla Arm")[cite: 701].
+* **Raycasting Táctil:** Interacción mediante "Taps" en pantalla traducidos a coordenadas 3D, minimizando la carga cognitiva.
+* **Feedback Multimodal:** Respuesta visual (partículas/colores), animaciones del robot (celebración/pensar) y respuesta háptica (vibración).
+* **Usabilidad Móvil:** Diseñado para sesiones de micro-aprendizaje (3-5 min) para evitar fatiga física ("Gorilla Arm").
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
-* [cite_start]**Motor:** Unity 2022.3 LTS (Universal Render Pipeline - URP)[cite: 651, 656].
-* [cite_start]**AR Framework:** AR Foundation 5.x + Google ARCore XR Plugin[cite: 653, 655].
+* **Motor:** Unity 2022.3 LTS (Universal Render Pipeline - URP).
+* **AR Framework:** AR Foundation 5.x + Vuforia Engine.
 * **Lenguaje:** C# (Scripting lógico y conexión API).
-* [cite_start]**Inteligencia Artificial:** Groq API (RESTful architecture)[cite: 666].
-* [cite_start]**Formato de Datos:** JSON (Newtonsoft.Json)[cite: 673].
+* **Inteligencia Artificial:** Groq API (RESTful architecture).
+* **Formato de Datos:** JSON (Newtonsoft.Json).
 
 ---
 
@@ -55,16 +55,14 @@ El sistema opera bajo una arquitectura de **Cliente Pesado (Thick Client)** con 
 2.  **Capa de Control (C#):** Administra el estado de la sesión y las interacciones táctiles.
 3.  **Capa Cognitiva (Groq Cloud):** Recibe el contexto (texto del PDF) + Nivel Bloom y retorna el objeto JSON.
 
-> *Ver diagrama de arquitectura detallado en `/Docs/Architecture.png`*
-
 ---
 
 ## 📋 Requisitos de Instalación
 
 ### Hardware (Dispositivo de Despliegue)
 * **Dispositivo:** Smartphone Android.
-* [cite_start]**OS:** Android 10.0 (API Nivel 29) o superior[cite: 678].
-* [cite_start]**Soporte:** Compatible con Google Play Services for AR (ARCore)[cite: 679].
+* **OS:** Android 10.0 (API Nivel 29) o superior.
+* **Soporte:** Compatibilidad con cualquier dispositivo como camara (Vuforia Engine).
 * **Sensores:** Cámara, Giroscopio y Acelerómetro.
 
 ### Entorno de Desarrollo (Para editar)
@@ -78,7 +76,7 @@ El sistema opera bajo una arquitectura de **Cliente Pesado (Thick Client)** con 
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/bloom-agent-ar.git](https://github.com/tu-usuario/bloom-agent-ar.git)
+    git clone [https://github.com/StevenLunaG/BloomAgent.git](https://github.com/StevenLunaG/BloomAgent.git)
     ```
 2.  **Configurar API Key:**
     * Navega a `Assets/Scripts/Managers/GroqClient.cs`.
@@ -113,7 +111,7 @@ El prototipo fue validado con una muestra de **$n=11$ usuarios** utilizando la e
 
 ## 👥 Créditos
 
-[cite_start]**Autor:** Steven Ernesto Luna Gaona [cite: 10]
-[cite_start]**Institución:** Universidad Nacional de Loja - Carrera de Computación[cite: 1, 7].
-[cite_start]**Asignatura:** Human-Computer Interaction[cite: 8].
-**Docente:** Ing. [cite_start]Pablo F. Ordoñez O.[cite: 15].
+**Autor:** Steven Ernesto Luna Gaona
+**Institución:** Universidad Nacional de Loja - Carrera de Computación.
+**Asignatura:** Human-Computer Interaction.
+**Docente:** Ing. Pablo F. Ordoñez O.
